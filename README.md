@@ -1,4 +1,4 @@
-# Primera guia de Markdown
+Primera guía de Markdown
 
 Este repositorio tiene la finalidad de funcionar como guía personal para entender la funcionalidad de Markdown, leguaje ligero usado para la documentación de proyectos en HTML y XML.
 
@@ -6,7 +6,7 @@ Este repositorio tiene la finalidad de funcionar como guía personal para entend
 
 ## para títulos tenemos:
 
-Para tenerun nivel de títulos tenenmos que anteceder el texto del título con un '#' seguido de un espacio. El nivel del título dependerá de el número de númerales (#) que se agrege hasta el título 6 (###### ), algo como lo que se muestra a continuación:
+Para tener un nivel de títulos tenemos que anteceder el texto del título con un '#' seguido de un espacio. El nivel del título dependerá del número de numerales (#) que se agrega hasta el título 6 (###### ), algo como lo que se muestra a continuación:
 
 ---
 
@@ -24,7 +24,7 @@ Para tenerun nivel de títulos tenenmos que anteceder el texto del título con u
 
 ---
 
-Las respectivas representación en Markdown sería:
+Las respectivas representaciones en Markdown sería:
 
 ```
 # Título 1
@@ -66,7 +66,7 @@ Su respectiva sintaxis en Markdown es:
 
 ### Listas no ordenadas:
 
-Para generar una lista de este tipo tan solo se debe agregar el signo menos o guión, también con asterisco ( - , \* ), junto con un espacio. Para lograr sub-listas tan solo se debe agregar un **TAB** antes de el simbolo.
+Para generar una lista de este tipo tan solo se debe agregar el signo menos o guion, también con asterisco ( - , \* ), junto con un espacio. Para lograr sablistas tan solo se debe agregar un **TAB** antes del símbolo.
 
 la sintaxis escrita es la siguiente:
 
@@ -144,24 +144,24 @@ La visualización del código usado para la creación del ejemplo anterio es la 
 
     4. n-ésimo bullet
 
-> **Nota:** en este momento no se puenden tener listas literales ( _**Ej:** a. b. etc_ )
+> **Nota:** en este momento no se pueden tener listas literales ( _**Ej:** a. b. etc._ )
 
 ---
 
-### Acerca de los enlaces (links) o hipervinculos:
+### Acerca de los enlaces (links) o hipervínculos:
 
-la sitaxis de los enlaces consiste en una pareja de llaves que encierran la palabra o nombre que cargará con el enlace así: [YouTube], por otra parte entre paréntesis a continuación del nombre se pondrá la **URL** del sitio al cual de debe direccionar y como opción un label que se mostrará cuando deslicemos el curso arriba del nombre del enlace:
+la sintaxis de los enlaces consiste en una pareja de llaves que encierran la palabra o nombre que cargará con el enlace así: [YouTube], por otra parte, entre paréntesis a continuación del nombre se pondrá la **URL** del sitio al cual se debe direccionar y como opción un label que se mostrará cuando deslicemos el curso arriba del nombre del enlace:
 
 **La sintaxis en Markdown quedaría así:**
 
->     [YouTube](http://www.youtube.com "Home Youtube")
+>     [YouTube](http://www.youtube.com "Home YouTube")
 
 **El resultado que se presenta para el enlace es este:**
-[YouTube](http://www.youtube.com "Home Youtube")
+[YouTube](http://www.youtube.com "Home YouTube")
 
 ---
 
-## Referencias a lineas de código
+## Referencias a líneas de código
 
 Para generar una referencia a un código particular podemos generar un espacio con tres acentos invertidos y cerrando el mismo espacio de la misma manera tal y como se ilustra a continuación:
 
@@ -179,9 +179,9 @@ la visualización de Markdown es la siguiente:
   return null;
 ```
 
-Como es de notar, se puede eleguir el lenguaje en el que el bloque de código esta escrito, en este caso JavaScript.
+Como es de notar, se puede elegir el lenguaje en el que el bloque de código esta escrito, en este caso JavaScript.
 
-Para una sola linea basta con usar un solo par de ascentos invertidos, pero en este caso no puedes definir el lenguaje, es algo así:
+Para una sola línea basta con usar un solo par de acentos invertidos, pero en este caso no puedes definir el lenguaje, es algo así:
 
     `print("Hola mundo!!!");`
 
@@ -193,7 +193,7 @@ el resultado de la anterior sintaxis es:
 
 ## Tablas
 
-Para hacer uso de las tablas se requiere de los simbolos **|** ( _barra vertical_) y **-** (guión o signo menos), la sintaxis de una tabla así como su visualización se muestran a continuación:
+Para hacer uso de las tablas se requiere de los símbolos **|** ( _barra vertical_) y **-** (guion o signo menos), la sintaxis de una tabla así como su visualización se muestran a continuación:
 
 **Sintaxis:**
 
@@ -217,7 +217,7 @@ Para hacer uso de las tablas se requiere de los simbolos **|** ( _barra vertical
 
 ## Carga de imágenes
 
-La carga de imagenes dentro de Markdown se puede ver como un caso especial de la generación de enlaces, auncuando se puede llamar enlaces locales, su sintaxis en la siguiente:
+La carga de imágenes dentro de Markdown se puede ver como un caso especial de la generación de enlaces, aun cuando se puede llamar enlaces locales, su sintaxis en la siguiente:
 
     ![Flores](https://photos.app.goo.gl/3Y2Bt1....)
 
@@ -229,7 +229,7 @@ La carga de imagenes dentro de Markdown se puede ver como un caso especial de la
 
 ## Lineas de separación
 
-Para separar secciones a veces necesitamos Lineas como las que se pueden ver entre la imagen y el título de esta sección o arriba de este texto. La sitaxis de estas lineas consiste en el uso de tres guines bajos **\_** consecutivos, no más:
+Para separar secciones a veces necesitamos Líneas como las que se pueden ver entre la imagen y el título de esta sección o arriba de este texto. La sintaxis de estas líneas consiste en el uso de tres guiones bajos **\_** consecutivos, no más:
 
 **Sintaxis:**
 
@@ -276,7 +276,7 @@ Para generar una lista de cosas por hacer la sintaxis en la siguiente:
 
 ### Emojis
 
-En el caso de los emoji la sintaaxis es la siguiente:
+En el caso de los emoji la sintaxis es la siguiente:
 
     :smile:
 
