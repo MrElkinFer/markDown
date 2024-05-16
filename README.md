@@ -241,5 +241,48 @@ Para separar secciones a veces necesitamos Lineas como las que se pueden ver ent
 
 ---
 
+## Comandos únicos en GitHub
+
+Dentro de GitHub podemos usar dos cosas específicas:
+
+1. Listas tipo checklist
+2. Emojis :rocket:
+
+---
+
+### Listas tipo CheckList
+
+Para generar una lista de cosas por hacer la sintaxis en la siguiente:
+
+    [ ] Tarea 1 (ToDo)
+
+    [X] Tarea 2 (Check)
+
+    [ ] Tarea 3 (ToDo)
+
+    [X] Tarea 4 (Check)
+
+**La visualización de la lista es la siguiente:**
+
+[ ] Tarea 1 (ToDo)
+
+[X] Tarea 2 (Check)
+
+[ ] Tarea 3 (ToDo)
+
+[X] Tarea 4 (Check)
+
+---
+
+### Emojis
+
+En el caso de los emoji la sintaaxis es la siguiente:
+
+    :smile:
+
+[:rocket::smile: :heart_eyes: :grin:Aqui:fire::sunny:](https://gist.github.com/rxaviers/7360908#file-gistfile1-md " emojis list: rxaviers") puedes picar para ver la lista de emojis disponibles para Markdown.
+
+---
+
 Versiones:
 **Primera versión: 15/05/2024.**
